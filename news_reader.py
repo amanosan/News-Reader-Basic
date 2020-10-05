@@ -23,7 +23,7 @@ def get_top_headlines(news_api_url):
 if __name__ == '__main__':
     url = (f'http://newsapi.org/v2/top-headlines?'
            'country=in&'
-           'apiKey=f9888439e1c043b491a9c318d6e653af')
+           'apiKey={your_api_key}')
 
     content = get_top_headlines(url)
 
